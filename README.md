@@ -53,9 +53,26 @@ That's it. No configuration files. No code. It just works.
 
 ## Resources
 
-| Resource | Operations |
-|----------|------------|
-| Default | Post add tags to certificate, Post delete certificate, Post describe certificate, Post export certificate, Post get account configuration, Post get certificate, Post import certificate, Post list certificates, Post list tags for certificate, Post put account configuration, Post remove tags from certificate, Post renew certificate, Post request certificate, Post resend validation email, Post update certificate options |
+<details>
+<summary><b>Default</b> (15 operations)</summary>
+
+- Post Add Tags To Certificate
+- Post Delete Certificate
+- Post Describe Certificate
+- Post Export Certificate
+- Post Get Account Configuration
+- Post Get Certificate
+- Post Import Certificate
+- Post List Certificates
+- Post List Tags For Certificate
+- Post Put Account Configuration
+- Post Remove Tags From Certificate
+- Post Renew Certificate
+- Post Request Certificate
+- Post Resend Validation Email
+- Post Update Certificate Options
+
+</details>
 
 ---
 

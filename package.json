@@ -1,7 +1,7 @@
 {
   "name": "@n8n-dev/n8n-nodes-amazonaws-acm",
-  "version": "1.0.0",
-  "description": "Certificate Manager You can use Certificate Manager (ACM) to manage SSL/TLS certificates for your Amazon Web Services-based websites and applications. For more information a..",
+  "version": "1.0.1",
+  "description": "Manage SSL/TLS certificates for AWS websites and applications.",
   "license": "MIT",
   "homepage": "https://n8n-code.github.io/n8n-dev/#/n8n-nodes-amazonaws-acm",
   "keywords": [
@@ -11,7 +11,7 @@
     "n8n-community-node-package",
     "openapi",
     "swagger",
-    "api",
+    "API",
     "automation",
     "workflow",
     "amazonaws-acm"

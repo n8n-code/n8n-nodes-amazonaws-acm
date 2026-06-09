@@ -3,14 +3,14 @@ import { defaultDescription } from './resources/default';
 
 export class AmazonawsAcm implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'amazonaws-acm',
+		displayName: 'Amazonaws Acm',
 		name: 'N8nDevAmazonawsAcm',
 		icon: { light: 'file:./amazonaws-acm.png', dark: 'file:./amazonaws-acm.dark.png' },
 		group: ['input'],
 		version: 1,
 		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
-		description: 'Certificate Manager You can use Certificate Manager (ACM) to manage SSL/TLS certificates for your Amazon Web Services-based websites and applications. For more information a..',
-		defaults: { name: 'amazonaws-acm' },
+		description: 'Manage SSL/TLS certificates for AWS websites and applications.',
+		defaults: { name: 'Amazonaws Acm' },
 		usableAsTool: true,
 		inputs: [NodeConnectionTypes.Main],
 		outputs: [NodeConnectionTypes.Main],

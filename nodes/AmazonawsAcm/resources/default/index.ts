@@ -2049,7 +2049,7 @@ export const defaultDescription: INodeProperties[] = [
 					"value": "RSA_4096"
 				},
 				{
-					"name": "EC Prime 256 V 1",
+					"name": "EC Prime 256 v1",
 					"value": "EC_prime256v1"
 				},
 				{

@@ -8,7 +8,7 @@ import type {
 export class AmazonawsAcmApi implements ICredentialType {
 	name = 'N8nDevAmazonawsAcmApi';
 
-	displayName = 'amazonaws-acm API';
+	displayName = 'Amazonaws Acm API';
 
 	icon: Icon = { light: 'file:../nodes/AmazonawsAcm/amazonaws-acm.png', dark: 'file:../nodes/AmazonawsAcm/amazonaws-acm.dark.png' };
 
@@ -22,7 +22,7 @@ export class AmazonawsAcmApi implements ICredentialType {
 			default: '',
 			required: true,
 			placeholder: 'http://acm.us-east-1.amazonaws.com',
-			description: 'The base URL of your amazonaws-acm API server',
+			description: 'The base URL of your Amazonaws Acm API server',
 		},
 		{
 			displayName: 'API Key',
